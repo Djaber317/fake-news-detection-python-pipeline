@@ -7,5 +7,14 @@ The dataset we’ll use for this python project called news.csv. This dataset ha
 
 ## Project – Prerequisites
 
-#### Pandas
+#### Sklearn
 > pip install sklearn
+
+#### Pandas
+> pip install pandas
+
+#### Numpy
+> pip install numpy
+
+## Summary
+For this project we ended up obtaining an accuracy of 94.7%.
