@@ -5,8 +5,6 @@
 #denoting whether the news is REAL or FAKE.
 
 import pandas as pd 
-import os
-import csv
 
 def pretraitement_data():
     #first we need to read the data
