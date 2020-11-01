@@ -9,7 +9,7 @@ import pandas as pd
 def pretraitement_data():
     #first we need to read the data
     
-    df = pd.read_csv("C:\\Users\\AEK INFO\\Documents\\GitHub\\fake-news-detection-python-pipelines\\news.csv")    
+    df = pd.read_csv("news.csv")    
     #group the columns text and title
     df['text'] += df['title']
     #remove columns that we don't need 
