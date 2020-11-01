@@ -24,7 +24,7 @@ text_clf = Pipeline([('vect', CountVectorizer(stop_words='english')),
                          ('tfidf', TfidfTransformer()),
                          ('clf-svm',
                           PassiveAggressiveClassifier(loss='hinge',
-                                        max_iter=300,tol=1e-4, C=1.0, random_state=0)),])
+                                        max_iter=300,tol=1e-4, C=1.0, random_state=0))])
 
 _ = text_clf.fit(text_train, label_train)
 predicted_svm = text_clf.predict(text_test)
