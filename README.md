@@ -16,6 +16,9 @@ The dataset we’ll use for this python project called news.csv. This dataset ha
 #### Numpy
 > $ pip install numpy
 
+## Get project
+> $ git clone https://github.com/Djaber317/fake-news-detection-python-pipeline.git
+
 ## Running code
 > $ python model_creation.py
 
